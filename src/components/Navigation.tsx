@@ -58,11 +58,11 @@ const Navigation = ({ activeTab, setActiveTab }: NavigationProps) => {
     <Sidebar className="border-r">
       <SidebarHeader className="p-4 border-b transition-colors duration-300">
         <h2 className="text-lg font-semibold transition-colors duration-300 hover:text-black text-black">
-          SOL Modern
+          Novus Apartments
         </h2>
         <div className="mt-1">
           <p className="text-sm font-medium text-muted-foreground">
-            Strategy Blueprint
+            Strategy Dashboard
           </p>
         </div>
       </SidebarHeader>

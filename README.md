@@ -1,82 +1,57 @@
 
-# Novus Apartments Strategy Blueprint
+# Novus Apartments Strategy Dashboard
 
 ## Project Description
 
-The Novus Apartments Strategy Blueprint provides a comprehensive market analysis and leasing strategy. It's designed to help property managers and marketing teams understand competitive positioning, market opportunities, and strategic recommendations for Novus Apartments with a professional and modern interface.
+The Novus Apartments Strategy Dashboard provides a comprehensive market analysis and leasing strategy platform. It's designed to help property managers and marketing teams understand competitive positioning, market opportunities, and strategic recommendations for Novus Apartments with a professional and modern interface.
 
-## Purpose
+## Features
 
-The purpose of this blueprint is to:
-
-- Provide a standardized framework for Novus Apartments' market and leasing strategy
-- Organize complex market data and leasing recommendations into digestible sections
-- Deliver strategic insights through an intuitive, visually appealing interface
-- Support effective decision-making for property management and marketing teams
-
-## Project Sections
-
-The template includes several key sections:
+This interactive dashboard includes:
 
 - **Executive Summary**: High-level overview of strategic findings and recommendations
 - **Market Intelligence**: Analysis of market trends, demographics, and demand
 - **Competitive Landscape**: Detailed competitor analysis and market positioning
 - **Strategic Opportunities**: Exploration of key growth opportunities
-- **Pricing & Incentive Framework**: Strategic pricing recommendations
+- **Pricing Framework**: Strategic pricing recommendations
 - **Go-to-Market Roadmap**: Implementation timeline and execution strategy
 - **Opportunity Map**: Visual representation of market opportunities
 
-## Project info
+## Getting Started
 
-**URL**: https://lovable.dev/projects/596e44ad-c177-4521-89d8-8eceef03dae4
-
-## How can I edit this code?
-
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/596e44ad-c177-4521-89d8-8eceef03dae4) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+To run this project locally:
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Step 1: Clone the repository
+git clone https://github.com/mgisrael393823/novus-apartments.git
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Step 2: Navigate to the project directory
+cd novus-apartments
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Step 3: Install the necessary dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Step 4: Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## Customizing Content
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+The dashboard uses a content management system that allows easy customization:
 
-**Use GitHub Codespaces**
+1. All content is stored in `src/lib/content-presets/default.ts`
+2. Update the content values to reflect your specific data and insights
+3. The application will automatically update to display your custom content
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Customizing Branding
 
-## What technologies are used for this project?
+To adjust branding elements like colors and typography:
+
+1. Navigate to `src/lib/brandingConfig.ts` to view the current configuration
+2. Modify the values to match your brand guidelines
+3. Use the BrandingSwitcher component to preview different branding options
+
+## Technologies Used
 
 This project is built with:
 
@@ -86,14 +61,21 @@ This project is built with:
 - shadcn-ui
 - Tailwind CSS
 
-## How can I deploy this project?
+## Project Structure
 
-Simply open [Lovable](https://lovable.dev/projects/596e44ad-c177-4521-89d8-8eceef03dae4) and click on Share -> Publish.
+```
+src/
+├── components/        # UI components
+│   ├── layouts/       # Layout components
+│   ├── patterns/      # Reusable content patterns
+│   └── ui/            # Base UI components
+├── lib/               # Core libraries and utilities
+│   ├── content-presets/  # Default content
+│   ├── ContentProvider.tsx # Content management
+│   └── BrandingProvider.tsx # Branding management
+└── pages/             # Page components for each section
+```
 
-## Can I connect a custom domain to my Lovable project?
+## License
 
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+This project is for the exclusive use of Novus Apartments and authorized personnel.

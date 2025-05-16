@@ -1,7 +1,7 @@
 /**
- * Default content preset for Novus Apartments Blueprint
+ * Default content preset for Novus Apartments Dashboard
  * 
- * This file contains the default placeholder content for the blueprint.
+ * This file contains the default placeholder content for the dashboard.
  * It serves as both an example of the content structure and as fallback
  * content when no custom content has been loaded.
  */
@@ -400,7 +400,7 @@ export const defaultContent: ContentStore = {
   sections: defaultSections,
   
   executiveSummary: {
-    introText: "This executive summary provides a concise overview of the key findings, strategic recommendations, and implementation priorities outlined in the comprehensive strategy blueprint.",
+    introText: "This executive summary provides a concise overview of the key findings, strategic recommendations, and implementation priorities outlined in the comprehensive strategy dashboard.",
     swotItems: defaultSwotItems,
     recommendations: defaultRecommendations
   },

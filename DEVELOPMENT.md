@@ -1,10 +1,10 @@
-# Novus Apartments Blueprint Development Guide
+# Novus Apartments Development Guide
 
-This document provides an architectural overview and development guidelines for the Novus Apartments Blueprint project. It's designed to help developers understand the system's structure, component relationships, and content management approach.
+This document provides an architectural overview and development guidelines for the Novus Apartments dashboard project. It's designed to help developers understand the system's structure, component relationships, and content management approach.
 
 ## Architecture Overview
 
-The SOL Modern Blueprint is built as a content-driven application using React, TypeScript, and Tailwind CSS. It's designed with these key architectural principles:
+The Novus Apartments dashboard is built as a content-driven application using React, TypeScript, and Tailwind CSS. It's designed with these key architectural principles:
 
 1. **Content/Presentation Separation**: All content is decoupled from presentation components
 2. **Consistent Theming**: A centralized theming system allows for visual customization
