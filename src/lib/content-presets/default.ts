@@ -1,5 +1,5 @@
 /**
- * Default content preset for SOL Modern Blueprint
+ * Default content preset for Novus Apartments Blueprint
  * 
  * This file contains the default placeholder content for the blueprint.
  * It serves as both an example of the content structure and as fallback
@@ -393,8 +393,8 @@ const defaultRoadmapPhases: RoadmapPhase[] = [
 
 // Complete default content
 export const defaultContent: ContentStore = {
-  siteTitle: "Strategy Blueprint",
-  siteDescription: "A comprehensive market analysis and strategic framework",
+  siteTitle: "Novus Apartments",
+  siteDescription: "Comprehensive market analysis and leasing strategy for Novus Apartments",
   
   navigation: defaultNavigation,
   sections: defaultSections,

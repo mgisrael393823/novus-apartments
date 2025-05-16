@@ -1,6 +1,6 @@
-# SOL Modern Blueprint Development Guide
+# Novus Apartments Blueprint Development Guide
 
-This document provides an architectural overview and development guidelines for the SOL Modern Blueprint project. It's designed to help developers understand the system's structure, component relationships, and content management approach.
+This document provides an architectural overview and development guidelines for the Novus Apartments Blueprint project. It's designed to help developers understand the system's structure, component relationships, and content management approach.
 
 ## Architecture Overview
 

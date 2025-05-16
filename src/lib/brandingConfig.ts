@@ -1,5 +1,5 @@
 /**
- * Branding configuration for SOL Modern Blueprint
+ * Branding configuration for Novus Apartments Blueprint
  * 
  * This module defines the branding configuration interface and provides
  * default branding settings. Branding manages project-specific information
@@ -25,23 +25,23 @@ export interface BrandingConfig {
 }
 
 export const defaultBranding: BrandingConfig = {
-  name: "SOL Modern",
+  name: "Novus Apartments",
   version: "1.0.0",
   generatedDate: new Date().toISOString(),
-  description: "Strategy Blueprint Template",
+  description: "Apartment Strategy Blueprint",
   logo: {
     main: "/logo.svg",
-    alt: "SOL Modern Logo",
+    alt: "Novus Apartments Logo",
     favicon: "/favicon.ico"
   },
   contact: {
-    email: "info@solmodern.com",
-    website: "https://solmodern.com"
+    email: "info@novusapartments.com",
+    website: "https://novusapartments.com"
   },
   metadata: {
     industry: "Real Estate",
     docType: "Strategy Blueprint",
-    author: "Sol Modern Team"
+    author: "Novus Apartments Team"
   }
 };
 

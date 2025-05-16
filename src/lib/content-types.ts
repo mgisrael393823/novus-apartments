@@ -1,5 +1,5 @@
 /**
- * Content Type Definitions for SOL Modern Blueprint
+ * Content Type Definitions for Novus Apartments Blueprint
  * 
  * This module defines the complete type system for all content within the blueprint.
  * These TypeScript interfaces ensure consistent data structure and provide

@@ -1,5 +1,5 @@
 /**
- * ContentProvider Module
+ * ContentProvider Module for Novus Apartments Blueprint
  * 
  * This module defines a React context provider that manages and distributes the blueprint's content
  * throughout the application. It handles loading content from localStorage, saving content changes,
